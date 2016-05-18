@@ -18,9 +18,9 @@ public interface ServerInterface {
     
     public void welcomeUser(Object out);
     
-    public boolean localSynchronisationDirectory(File file);
+    public boolean updateLocalClient(File file);
     
-    public boolean clientSynchronisationDirectory();
+    public boolean updateRemoteClient();
     
     public List<String> searchSong(String trackName);
 }
